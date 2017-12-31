@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# geojson-dashboard
+A configurable framework for building a geographic "data dashboard" from a GeoJSON file.
 
-You can use the [editor on GitHub](https://github.com/michelepetito/michele.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Features
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Flexible template built on active open source components
+* Entirely client-side, can be hosted for free on [GitHub Pages](https://pages.github.com/)
+* Built on the incredibly popular [Bootstrap](http://getbootstrap.com/) UI framework
+* Maps via [Leaflet](http://leafletjs.com/), the leading open source JavaScript mapping library
+* Interactive data table with sorting, searching, column toggling, and data export via the [Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn/) plugin
+* Advanced, interactive GeoJSON data querying that integrates [jQuery QueryBuilder](http://mistic100.github.io/jQuery-QueryBuilder/index.html) with [AlaSQL](http://alasql.org/)
+* Advanced charting via [C3.js](http://c3js.org/), the D3-based reusable chart library
 
-### Markdown
+## Screenshots
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Split screen view
 
-```markdown
-Syntax highlighted code block
+![Map](https://raw.githubusercontent.com/fulcrumapp/geojson-dashboard/gh-pages/screenshots/map.png)
 
-# Header 1
-## Header 2
-### Header 3
+Feature Info popup
 
-- Bulleted
-- List
+![Info](https://raw.githubusercontent.com/fulcrumapp/geojson-dashboard/gh-pages/screenshots/info.png)
 
-1. Numbered
-2. List
+Interactive charts
 
-**Bold** and _Italic_ and `Code` text
+![Charts](https://raw.githubusercontent.com/fulcrumapp/geojson-dashboard/gh-pages/screenshots/charts.png)
 
-[Link](url) and ![Image](src)
-```
+SQL query filters
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/michelepetito/michele.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Filter](https://raw.githubusercontent.com/fulcrumapp/geojson-dashboard/gh-pages/screenshots/filter.png)
